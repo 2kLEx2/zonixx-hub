@@ -294,7 +294,15 @@ function updateSelectedMatches(matchId, isSelected, matchData) {
       const ctx = canvas.getContext('2d');
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       
-      // Reload matches from API
+      // Call API to refresh matches
+      const refreshResponse = await fetch('/refresh-upcoming');
+      const refreshResult = await refreshResponse.json();
+      
+      if (!refreshResult.success) {
+        throw new Error('Failed to refresh matches from API');
+      }
+      
+      // Reload matches from updated JSON
       await loadUpcomingMatches();
       
       // Success feedback
