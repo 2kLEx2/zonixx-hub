@@ -1,0 +1,23 @@
+{
+  "selected_matches": [
+    {
+      "id": 1219305,
+      "team1": {
+        "name": "Nexus",
+        "logo": "https://cdn.pandascore.co/images/team/image/126699/7187.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Reason",
+        "logo": "https://cdn.pandascore.co/images/team/image/3321/REASON.png",
+        "score": 0
+      },
+      "event": "Thunderpick World Championship",
+      "date": "2025-08-11T08:00:00Z",
+      "format": "Bo3",
+      "status": "upcoming",
+      "link": "https://www.hltv.org/matches/2384201/nexus-vs-reason-thunderpick-world-championship-2025-european-series-2"
+    }
+  ],
+  "parallel_matches": []
+}

@@ -1,0 +1,7538 @@
+[
+  {
+    "type": "rectangle",
+    "name": "Progress",
+    "x": 0,
+    "y": 237,
+    "width": 278,
+    "height": 30,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0,
+        "g": 1,
+        "b": 0.3333333432674408
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "LIVE",
+    "content": "LIVE",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 20,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 117,
+    "y": 245,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Match Card",
+    "x": 0,
+    "y": 0,
+    "width": 278,
+    "height": 237,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.2548076808452606,
+        "g": 0.2548076808452606,
+        "b": 0.2548076808452606
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:22"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Dust2",
+    "content": "Dust2",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 178,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Mirage",
+    "content": "Mirage",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 195,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Inferno",
+    "content": "Inferno",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 212,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Decider",
+    "content": "Decider",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 99,
+    "y": 212,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "1.Aug.",
+    "content": "1.Aug.",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 2.5,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "19:00",
+    "content": "19:00",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 20,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 62,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "1.Aug.",
+    "content": "1.Aug.",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 2.5,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "19:00",
+    "content": "19:00",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 20,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 62,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "BO1-3",
+    "content": "BO1-3",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 10,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 60,
+    "y": 52,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Tournament Name",
+    "content": "Tournament Name",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 10,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 60,
+    "y": 38,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 133,
+    "y": 178,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 3",
+    "x": 223,
+    "y": 179,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 2",
+    "x": 133,
+    "y": 196,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Map",
+    "content": "Map",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 6,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 162,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Pick",
+    "content": "Pick",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 6,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 129,
+    "y": 163,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "WIN",
+    "content": "WIN",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 6,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 218,
+    "y": 163,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 6",
+    "x": 223,
+    "y": 196,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.8509804010391235,
+        "g": 0.8509804010391235,
+        "b": 0.8509804010391235
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 7",
+    "x": 223,
+    "y": 212,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.8509804010391235,
+        "g": 0.8509804010391235,
+        "b": 0.8509804010391235
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "Progress",
+    "x": 0,
+    "y": 237,
+    "width": 278,
+    "height": 30,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0,
+        "g": 1,
+        "b": 0.3333333432674408
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "LIVE",
+    "content": "LIVE",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 20,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 117,
+    "y": 245,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Match Card",
+    "x": 0,
+    "y": 0,
+    "width": 278,
+    "height": 237,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.2548076808452606,
+        "g": 0.2548076808452606,
+        "b": 0.2548076808452606
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:22"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Dust2",
+    "content": "Dust2",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 178,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Mirage",
+    "content": "Mirage",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 195,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Inferno",
+    "content": "Inferno",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 212,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Decider",
+    "content": "Decider",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 99,
+    "y": 212,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "1.Aug.",
+    "content": "1.Aug.",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 2.5,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "19:00",
+    "content": "19:00",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 20,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 62,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "1.Aug.",
+    "content": "1.Aug.",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 12,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 2.5,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "19:00",
+    "content": "19:00",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 20,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 62,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 2",
+    "x": 150,
+    "y": 0,
+    "width": 40,
+    "height": 14,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.16862745583057404,
+        "g": 0.4313725531101227,
+        "b": 0.6431372761726379
+      },
+      "boundVariables": {
+        "color": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:1:42"
+        }
+      }
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "HLTV",
+    "content": "HLTV",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 156,
+    "y": 3,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "BO1-3",
+    "content": "BO1-3",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 10,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 60,
+    "y": 52,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Tournament Name",
+    "content": "Tournament Name",
+    "font": "Geist",
+    "weight": "Light",
+    "size": 10,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 60,
+    "y": 38,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name A",
+    "content": "Team name A",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 0,
+    "y": 0,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Team name B",
+    "content": "Team name B",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 20,
+    "y": 0,
+    "textAlignHorizontal": "LEFT",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "13",
+    "content": "13",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(1)",
+    "content": "(1)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "6",
+    "content": "6",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 0,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "(0)",
+    "content": "(0)",
+    "font": "Geist",
+    "weight": "Regular",
+    "size": 15,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 39,
+    "y": 0,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 1",
+    "x": 133,
+    "y": 178,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 3",
+    "x": 223,
+    "y": 179,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "default-team-logo 2",
+    "x": 133,
+    "y": 196,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "IMAGE",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "scaleMode": "FILL",
+      "imageTransform": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ]
+      ],
+      "scalingFactor": 0.5,
+      "rotation": 0,
+      "filters": {
+        "exposure": 0,
+        "contrast": 0,
+        "saturation": 0,
+        "temperature": 0,
+        "tint": 0,
+        "highlights": 0,
+        "shadows": 0
+      },
+      "imageHash": "7b0dd62a4a5c36977575d21040d67644f1aba08b"
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "text",
+    "name": "Map",
+    "content": "Map",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 6,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 40,
+    "y": 162,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "Pick",
+    "content": "Pick",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 6,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 129,
+    "y": 163,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "text",
+    "name": "WIN",
+    "content": "WIN",
+    "font": "Geist",
+    "weight": "Bold",
+    "size": 6,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 1,
+        "g": 1,
+        "b": 1
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1,
+    "x": 218,
+    "y": 163,
+    "textAlignHorizontal": "CENTER",
+    "textAlignVertical": "TOP"
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 6",
+    "x": 223,
+    "y": 196,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.8509804010391235,
+        "g": 0.8509804010391235,
+        "b": 0.8509804010391235
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1
+  },
+  {
+    "type": "rectangle",
+    "name": "Rectangle 7",
+    "x": 223,
+    "y": 212,
+    "width": 11,
+    "height": 11,
+    "fill": {
+      "type": "SOLID",
+      "visible": true,
+      "opacity": 1,
+      "blendMode": "NORMAL",
+      "color": {
+        "r": 0.8509804010391235,
+        "g": 0.8509804010391235,
+        "b": 0.8509804010391235
+      },
+      "boundVariables": {}
+    },
+    "stroke": null,
+    "lineWidth": 1
+  }
+]

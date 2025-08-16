@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <script src="realtime-sync.js"></script>
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 class="header-title">Zonixx Hub</h1>
+      <nav>
+        <ul>
+          <li><a href="Comands.html">Comands</a></li>
+          <li><a href="Grafic.html">Grafic</a></li>
+          <li><a href="#ticker">Ticker</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="body-layout">
+    <section class="card">
+      <div class="card-header">
+        <h2>Selected Matches</h2>
+      </div>
+      <div class="match-card-body" id="selected-matches">
+        <!-- Add your content here -->
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header">
+        <h2>Parallel Matches</h2>
+      </div>
+      <div class="match-card-body" id="parallel-matches">
+        <!-- Parallel matches will be displayed here -->
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function formatDateTime(dateString) {
+      const date = new Date(dateString);
+      const day = date.getDate();
+      const month = date.toLocaleString('default', { month: 'short' });
+      const time = date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      return { dayMonth: `${day}.${month}.`, time };
+    }
+
+    function createMatchCard(match) {
+      const { dayMonth, time } = formatDateTime(match.date);
+
+      return `
+        <div class="match-card">
+          <div class="match-meta">
+            <span class="match-date">${dayMonth}</span>
+            <span class="match-time">${time}</span>
+            <a class="match-source" href="${match.link}" target="_blank">HLTV</a>
+          </div>
+
+          <div class="tournament-info">
+            <div class="tournament-name">${match.event}</div>
+            <div class="match-format">${match.format}</div>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="team team-a">
+            <img class="team-logo" src="${match.team1.logo}" alt="${match.team1.name}" />
+            <span class="team-name">${match.team1.name}</span>
+            <span class="team-score">${match.team1.score}</span>
+          </div>
+
+          <div class="team team-b">
+            <img class="team-logo" src="${match.team2.logo}" alt="${match.team2.name}" />
+            <span class="team-name">${match.team2.name}</span>
+            <span class="team-score">${match.team2.score}</span>
+          </div>
+
+          <hr class="divider" />
+
+          <div class="match-status">
+            ${match.status.toUpperCase()}
+          </div>
+        </div>
+      `;
+    }
+
+  function loadMatches() {
+    fetch('selected_matches.json')
+      .then(response => response.json())
+      .then(data => {
+        // Load selected matches
+        const selectedContainer = document.getElementById("selected-matches");
+        const sortedSelectedMatches = data.selected_matches.sort(
+          (a, b) => new Date(a.date) - new Date(b.date)
+        );
+        selectedContainer.innerHTML = sortedSelectedMatches.map(createMatchCard).join("");
+
+        // Load parallel matches
+        const parallelContainer = document.getElementById("parallel-matches");
+        if (data.parallel_matches && data.parallel_matches.length > 0) {
+          const sortedParallelMatches = data.parallel_matches.sort(
+            (a, b) => new Date(a.date) - new Date(b.date)
+          );
+          parallelContainer.innerHTML = sortedParallelMatches.map(createMatchCard).join("");
+        } else {
+          parallelContainer.innerHTML = '<p class="no-matches">No parallel matches found</p>';
+        }
+      })
+      .catch(error => {
+        console.error('Error loading match data:', error);
+        document.getElementById("selected-matches").innerHTML = '<p class="error">Error loading matches</p>';
+        document.getElementById("parallel-matches").innerHTML = '<p class="error">Error loading matches</p>';
+      });
+  }
+
+  // Initial load
+  loadMatches();
+
+  // Real-time sync: Listen for match updates from other users
+  window.addEventListener('load', () => {
+    if (window.realtimeSync) {
+      window.realtimeSync.on('matches_updated', (updatedMatches) => {
+        console.log('📡 Matches updated by another user, refreshing...');
+        loadMatches();
+      });
+    }
+  });
+  </script>
+</body>
+</html>

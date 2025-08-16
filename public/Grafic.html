@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <script src="canvas-build-system.js"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <a href="index.html" class="header-title-link">
+        <h1 class="header-title">Zonixx Hub</h1>
+        </a>
+        <nav>
+        <ul>
+            <li><a href="Comands.html">Comands</a></li>
+            <li><a href="Grafic.html">Grafic</a></li>
+            <li><a href="#ticker">Ticker</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+
+<main class="new-body-layout">
+  <div class="left-column">
+    <section class="card">
+      <div class="card-header with-button">
+        <h2>Upcoming Matches</h2>
+        <div class="button-group">
+          <button id="refresh-matches-button" class="btn-primary">
+            <i data-lucide="refresh-cw"></i>
+          </button>
+        </div>
+      </div>
+        <div class="card-body" id="upcoming-matches" class="accordion">
+        <!-- Dropdowns will be injected here -->
+        </div>
+    </section>
+  </div>
+
+  <div class="right-column">
+    <section class="card">
+      <div class="card-header">
+        <h2>Settings</h2>
+      </div>
+        <div class="card-body">
+            <div class="command-block" data-type="${type}" data-index="${index}">
+            <div class="command-title">Title</div>
+            <div class="command-controls">
+            <input type="text" id="canvas-title-input" class="command-input-title" value="Watch Party Schedule"/>
+            </div>
+            
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-header with-button">
+        <h2>Grafic</h2>
+        <div class="button-group">
+          <button id="copy-canvas-button" class="btn-primary">
+            <i data-lucide="copy"></i>
+          </button>
+          <button id="save-scrape-button" class="btn-primary">
+            <i data-lucide="save"></i>
+          </button>
+        </div>
+      </div>
+      <div class="card-body">
+        <canvas id="schedule-canvas"></canvas>
+      </div>
+    </section>
+  </div>
+</main>
+
+<script>
+  let selectedMatches = {};
+  let parallelMatches = [];
+  let allMatchList = []; // ✅ Declare this globally
+
+  async function loadUpcomingMatches() {
+    const response = await fetch('/upcoming_matches.json');
+    const data = await response.json();
+    const matches = data.upcoming_matches;
+
+    // ✅ Save all matches globally
+    allMatchList = matches;
+
+    // Sort by date, event, and match time
+    matches.sort((a, b) => {
+      const aDate = new Date(a.date);
+      const bDate = new Date(b.date);
+      if (aDate - bDate !== 0) return aDate - bDate;
+      if (a.event !== b.event) return a.event.localeCompare(b.event);
+      return aDate - bDate;
+    });
+
+    const grouped = {};
+    for (const match of matches) {
+      const dateKey = new Date(match.date).toLocaleDateString();
+      const eventKey = match.event;
+      if (!grouped[dateKey]) grouped[dateKey] = {};
+      if (!grouped[dateKey][eventKey]) grouped[dateKey][eventKey] = [];
+      grouped[dateKey][eventKey].push(match);
+    }
+
+    const container = document.getElementById('upcoming-matches');
+  
+  // Clear existing matches before loading new ones
+  container.innerHTML = '';
+
+  for (const date in grouped) {
+      const dateSection = createDropdown(date, 'date');
+
+      for (const event in grouped[date]) {
+        const eventSection = createDropdown(event, 'event');
+
+        grouped[date][event].forEach(match => {
+          const time = new Date(match.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+
+          const matchEl = document.createElement('div');
+          matchEl.className = 'match-block';
+            matchEl.innerHTML = `
+              <div class="match-time">${time}</div>
+              <div class="match-teams-row">
+                <span class="team-name left">${match.team1.name}</span>
+                <img src="${match.team1.logo}" alt="${match.team1.name}" class="team-logo"/>
+                <span class="vs-text">vs</span>
+                <img src="${match.team2.logo}" alt="${match.team2.name}" class="team-logo"/>
+                <span class="team-name right">${match.team2.name}</span>
+              </div>
+            `;
+
+          matchEl.addEventListener('click', () => {
+            matchEl.classList.toggle('selected');
+            updateSelectedMatches(match.id, matchEl.classList.contains('selected'), match);
+          });
+
+          eventSection.querySelector('.dropdown-content').appendChild(matchEl);
+        });
+
+        dateSection.querySelector('.dropdown-content').appendChild(eventSection);
+      }
+
+      container.appendChild(dateSection);
+    }
+  }
+
+    function getParallelMatches(selectedMatch, allMatches) {
+    const selectedTime = new Date(selectedMatch.date);
+    const timeWindow = 55 * 60 * 1000;
+
+    return allMatches.filter(match => {
+        if (match.id === selectedMatch.id) return false;
+
+        const matchTime = new Date(match.date);
+        
+        const sameDay =
+        selectedTime.getUTCFullYear() === matchTime.getUTCFullYear() &&
+        selectedTime.getUTCMonth() === matchTime.getUTCMonth() &&
+        selectedTime.getUTCDate() === matchTime.getUTCDate();
+
+        const sameEvent = match.event === selectedMatch.event;
+        const timeDiff = Math.abs(selectedTime - matchTime) <= timeWindow;
+
+        return sameDay && sameEvent && timeDiff;
+    });
+    }
+
+
+
+  function createDropdown(title, level) {
+    const wrapper = document.createElement('div');
+    wrapper.className = `dropdown dropdown-${level}`;
+
+    wrapper.innerHTML = `
+      <div class="dropdown-header">${title}</div>
+      <div class="dropdown-content"></div>
+    `;
+
+    wrapper.querySelector('.dropdown-header').addEventListener('click', () => {
+      wrapper.classList.toggle('open');
+    });
+
+    return wrapper;
+  }
+
+  loadUpcomingMatches();
+
+  
+
+  const canvas = document.getElementById('schedule-canvas');
+  const canvasBuilder = new CanvasBuildSystem(canvas);
+
+  async function updateCanvasGraphic() {
+    const selectedList = Object.values(selectedMatches);
+
+    const ctx = canvas.getContext('2d');
+    if (selectedList.length === 0) {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      return;
+    }
+
+    // Sort matches by start time (chronological order)
+    const sortedMatches = selectedList.sort((a, b) => {
+      return new Date(a.date) - new Date(b.date);
+    });
+
+    const formattedMatches = sortedMatches.map(match => ({
+      time: new Date(match.date).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
+      team1: match.team1,
+      team2: match.team2,
+      tournament: match.event,
+      date: match.date // Keep original date for potential future sorting
+    }));
+
+    const titleInput = document.getElementById('canvas-title-input');
+    const canvasTitle = titleInput?.value?.trim() || 'Selected Match Schedule';
+
+    await canvasBuilder.loadImages(formattedMatches);
+    await canvasBuilder.drawGraphic(formattedMatches, canvasTitle);
+  }
+
+  document.getElementById('canvas-title-input').addEventListener('input', () => {
+    updateCanvasGraphic();
+  });
+
+  // Modified updateSelectedMatches to only update temporary selections (no auto-save):
+function updateSelectedMatches(matchId, isSelected, matchData) {
+  if (isSelected) {
+    selectedMatches[matchId] = matchData;
+  } else {
+    delete selectedMatches[matchId];
+  }
+
+  // Recalculate parallel matches for ALL selected matches
+  const allParallels = [];
+  const selectedMatchIds = Object.keys(selectedMatches);
+  
+  for (const selectedId of selectedMatchIds) {
+    const selectedMatch = selectedMatches[selectedId];
+    const parallels = getParallelMatches(selectedMatch, allMatchList);
+    allParallels.push(...parallels);
+  }
+
+  // Remove duplicates and filter out matches that are already selected
+  const uniqueParallels = [];
+  const seenIds = new Set();
+  
+  for (const parallel of allParallels) {
+    if (!seenIds.has(parallel.id) && !selectedMatches[parallel.id]) {
+      seenIds.add(parallel.id);
+      uniqueParallels.push(parallel);
+    }
+  }
+  
+  parallelMatches = uniqueParallels;
+
+  // Only update the canvas graphic, don't save to server yet
+  updateCanvasGraphic();
+  
+  console.log('Temporary selection updated:', {
+    selected: Object.keys(selectedMatches).length,
+    parallel: parallelMatches.length
+  });
+}
+
+  lucide.createIcons();
+
+
+  document.getElementById('refresh-matches-button').addEventListener('click', async () => {
+    try {
+      // Log refresh action
+      console.log('🔄 Refresh matches triggered:', {
+        action: 'refresh_matches',
+        timestamp: new Date().toISOString(),
+        user_agent: navigator.userAgent
+      });
+
+      // Visual feedback - show loading state
+      const button = document.getElementById('refresh-matches-button');
+      const originalHTML = button.innerHTML;
+      button.innerHTML = '<i data-lucide="loader-2"></i>';
+      button.classList.add('loading');
+      
+      // Clear current matches and reset selections
+      const container = document.getElementById('upcoming-matches');
+      container.innerHTML = '';
+      selectedMatches = {};
+      parallelMatches = [];
+      
+      // Clear canvas
+      const canvas = document.getElementById('schedule-canvas');
+      const ctx = canvas.getContext('2d');
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      
+      // Reload matches from API
+      await loadUpcomingMatches();
+      
+      // Success feedback
+      button.innerHTML = '<i data-lucide="check"></i>';
+      button.classList.remove('loading');
+      button.classList.add('success');
+      
+      setTimeout(() => {
+        button.innerHTML = originalHTML;
+        button.classList.remove('success');
+        lucide.createIcons();
+      }, 2000);
+      
+    } catch (err) {
+      console.error('Error refreshing matches:', err);
+      
+      // Error feedback
+      const button = document.getElementById('refresh-matches-button');
+      const originalHTML = button.innerHTML;
+      button.innerHTML = '<i data-lucide="x"></i>';
+      button.classList.remove('loading');
+      button.classList.add('error');
+      
+      setTimeout(() => {
+        button.innerHTML = originalHTML;
+        button.classList.remove('error');
+        lucide.createIcons();
+      }, 2000);
+      
+      alert('❌ Failed to refresh matches');
+    }
+  });
+
+  document.getElementById('copy-canvas-button').addEventListener('click', async () => {
+    try {
+      const canvas = document.getElementById('schedule-canvas');
+      
+      // Convert canvas to blob
+      canvas.toBlob(async (blob) => {
+        try {
+          // Create clipboard item with the image
+          const item = new ClipboardItem({ 'image/png': blob });
+          await navigator.clipboard.write([item]);
+          
+          // Visual feedback
+          const button = document.getElementById('copy-canvas-button');
+          const originalHTML = button.innerHTML;
+          button.innerHTML = '<i data-lucide="check"></i>';
+          button.classList.add('success');
+          
+          setTimeout(() => {
+            button.innerHTML = originalHTML;
+            button.classList.remove('success');
+            lucide.createIcons();
+          }, 2000);
+          
+        } catch (err) {
+          console.error('Failed to copy to clipboard:', err);
+          alert('❌ Failed to copy image to clipboard');
+        }
+      }, 'image/png');
+      
+    } catch (err) {
+      console.error('Error copying canvas:', err);
+      alert('❌ An error occurred while copying');
+    }
+  });
+
+  document.getElementById('save-scrape-button').addEventListener('click', async () => {
+  try {
+    // Save selected matches first
+    const saveResponse = await fetch('/api/selected_matches', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        selected_matches: Object.values(selectedMatches),
+        parallel_matches: parallelMatches,
+      }),
+    });
+
+    if (!saveResponse.ok) throw new Error('Match save failed');
+    console.log('✅ Matches saved');
+
+    // Then run the HLTV scraper
+    const scrapeResponse = await fetch('/api/run-hltv-scraper', { method: 'POST' });
+    const result = await scrapeResponse.json();
+
+    if (result.success) {
+      alert('✅ HLTV Scraper finished successfully');
+    } else {
+      alert('❌ Scraper failed');
+      console.error(result.error);
+    }
+  } catch (err) {
+    console.error('Error saving or scraping:', err);
+    alert('❌ An error occurred. Check console for details.');
+  }
+});
+
+  
+</script>

@@ -1,0 +1,1313 @@
+{
+  "upcoming_matches": [
+    {
+      "id": 1223181,
+      "team1": {
+        "name": "QUAZAR",
+        "logo": "https://cdn.pandascore.co/images/team/image/130570/222px_quazar.gg_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "ALGO Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/136539/222px_algo_allmode.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-16T09:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223225,
+      "team1": {
+        "name": "JiJieHao",
+        "logo": "https://cdn.pandascore.co/images/team/image/126994/ji_jie_hao_international_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "ECSTATIC",
+        "logo": "https://cdn.pandascore.co/images/team/image/129856/600px_ecstatic_2023_allmode.png",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-16T10:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225299,
+      "team1": {
+        "name": "Wildcard Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/136075/125px_wildcard_2024_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "MASONIC",
+        "logo": "https://cdn.pandascore.co/images/team/image/127911/t56871.png",
+        "score": 0
+      },
+      "event": "United21",
+      "date": "2025-08-16T10:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224288,
+      "team1": {
+        "name": "FORZE Reload",
+        "logo": "https://cdn.pandascore.co/images/team/image/135126/134px_forze_reload_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Bushido Wildcats",
+        "logo": "https://cdn.pandascore.co/images/team/image/136934/bushido_wildcatslogo_square.png",
+        "score": 0
+      },
+      "event": "European Pro League",
+      "date": "2025-08-16T10:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222576,
+      "team1": {
+        "name": "Marius",
+        "logo": "https://cdn.pandascore.co/images/team/image/137005/285px_marius_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "1WIN",
+        "logo": "https://cdn.pandascore.co/images/team/image/126944/1200px_1win_lightmode.png",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-16T11:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1220142,
+      "team1": {
+        "name": "BC.Game Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/135177/188px_bc.game_esports_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "ARCRED",
+        "logo": "https://cdn.pandascore.co/images/team/image/130360/600px_arcred_2023_lightmode.png",
+        "score": 0
+      },
+      "event": "Exort The Proving Grounds",
+      "date": "2025-08-16T11:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223182,
+      "team1": {
+        "name": "Phantom",
+        "logo": "https://cdn.pandascore.co/images/team/image/136560/124px_phantom_esports_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "MASONIC",
+        "logo": "https://cdn.pandascore.co/images/team/image/127911/t56871.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-16T12:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225301,
+      "team1": {
+        "name": "WOPA Esport",
+        "logo": "https://cdn.pandascore.co/images/team/image/134816/190px_wopa_esport_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Sangal ALTERS",
+        "logo": "https://cdn.pandascore.co/images/team/image/136593/sangal.png",
+        "score": 0
+      },
+      "event": "United21",
+      "date": "2025-08-16T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223215,
+      "team1": {
+        "name": "ENCE",
+        "logo": "https://cdn.pandascore.co/images/team/image/3251/755px_ence_2020_full_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "fnatic",
+        "logo": "https://cdn.pandascore.co/images/team/image/3217/1199px_fnatic_2020_allmode.png",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-16T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221664,
+      "team1": {
+        "name": "BESTIA",
+        "logo": "https://cdn.pandascore.co/images/team/image/132800/124px_bestia_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "DESEMPREGUEIDOS",
+        "logo": "",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-16T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222571,
+      "team1": {
+        "name": "Sinners",
+        "logo": "https://cdn.pandascore.co/images/team/image/127014/927px_sinners_esports_full_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Betera Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/133560/betera_2024_allmode.png",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-16T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221580,
+      "team1": {
+        "name": "MOUZ",
+        "logo": "https://cdn.pandascore.co/images/team/image/3240/208px_mouz_2021_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Spirit",
+        "logo": "https://cdn.pandascore.co/images/team/image/124523/153px_team_spirit_2022_lightmode.png",
+        "score": 0
+      },
+      "event": "BLAST Bounty",
+      "date": "2025-08-16T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1220143,
+      "team1": {
+        "name": "9INE",
+        "logo": "https://cdn.pandascore.co/images/team/image/126408/600px_9_ine_2022_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "CYBERSHOKE Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/133542/128px_cybershoke_esports_allmode.png",
+        "score": 0
+      },
+      "event": "Exort The Proving Grounds",
+      "date": "2025-08-16T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223183,
+      "team1": {
+        "name": "Valtrion",
+        "logo": "https://cdn.pandascore.co/images/team/image/137273/120px_valtrion_logo_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "XI Esport",
+        "logo": "https://cdn.pandascore.co/images/team/image/131591/133px_xi_esport_allmode.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-16T15:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225348,
+      "team1": {
+        "name": "falador2006",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "Inner Circle Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/136497/192px_inner_circle_esports_lightmode.png",
+        "score": 0
+      },
+      "event": "ESEA",
+      "date": "2025-08-16T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223226,
+      "team1": {
+        "name": "FUT Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/136955/fut_esportslogo_square.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Spirit Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/128766/900px_team_spirit_academy_2021_logo.png",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-16T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221665,
+      "team1": {
+        "name": "9z",
+        "logo": "https://cdn.pandascore.co/images/team/image/126709/9z_team_2024_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "SELVA",
+        "logo": "",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-16T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225349,
+      "team1": {
+        "name": "Team Storm",
+        "logo": "https://cdn.pandascore.co/images/team/image/137264/5da18ff9_1ac1_4da1_ab1e_acd2b18344af.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "paranoia",
+        "logo": "",
+        "score": 0
+      },
+      "event": "ESEA",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223449,
+      "team1": {
+        "name": "Sashi Esport",
+        "logo": "https://cdn.pandascore.co/images/team/image/131010/get_team_logos.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Nexus",
+        "logo": "https://cdn.pandascore.co/images/team/image/126699/7187.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223448,
+      "team1": {
+        "name": "Betera Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/133560/betera_2024_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "HOTU",
+        "logo": "https://cdn.pandascore.co/images/team/image/130569/148px_hotu_2022_lightmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223447,
+      "team1": {
+        "name": "BIG",
+        "logo": "https://cdn.pandascore.co/images/team/image/3249/600px_big_2020_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "OG",
+        "logo": "https://cdn.pandascore.co/images/team/image/126584/600px_og_rb_logo.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223446,
+      "team1": {
+        "name": "Sangal",
+        "logo": "https://cdn.pandascore.co/images/team/image/127365/sangal.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Iberian Soul",
+        "logo": "https://cdn.pandascore.co/images/team/image/136319/ev3r_fa_f.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223432,
+      "team1": {
+        "name": "ENCE",
+        "logo": "https://cdn.pandascore.co/images/team/image/3251/755px_ence_2020_full_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "PARIVISION",
+        "logo": "https://cdn.pandascore.co/images/team/image/133719/250px_parivision_allmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223431,
+      "team1": {
+        "name": "9INE",
+        "logo": "https://cdn.pandascore.co/images/team/image/126408/600px_9_ine_2022_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Johnny Speeds",
+        "logo": "https://cdn.pandascore.co/images/team/image/134188/190px_johnny_speeds_allmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223430,
+      "team1": {
+        "name": "BetBoom Team",
+        "logo": "https://cdn.pandascore.co/images/team/image/133458/bet_boom_team_2024_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "BC.Game Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/135177/188px_bc.game_esports_lightmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223429,
+      "team1": {
+        "name": "Nemiga",
+        "logo": "https://cdn.pandascore.co/images/team/image/124522/NEMIGA.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Zero Tenacity",
+        "logo": "https://cdn.pandascore.co/images/team/image/129685/zero_tenacitylogo_square.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222577,
+      "team1": {
+        "name": "Copenhagen Wolves",
+        "logo": "https://cdn.pandascore.co/images/team/image/134261/600px_copenhagen_wolves_2012_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "SPARTA",
+        "logo": "https://cdn.pandascore.co/images/team/image/136659/233px_sparta__russian_team__allmode.png",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221581,
+      "team1": {
+        "name": "Vitality",
+        "logo": "https://cdn.pandascore.co/images/team/image/3455/team_vitalitylogo_square.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "TheMongolz",
+        "logo": "https://cdn.pandascore.co/images/team/image/3272/702px_the_mongol_z_2024_03_allmode.png",
+        "score": 0
+      },
+      "event": "BLAST Bounty",
+      "date": "2025-08-16T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223184,
+      "team1": {
+        "name": "Speed Demons",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "Northern Lights",
+        "logo": "https://cdn.pandascore.co/images/team/image/135390/northern_lights_logo_400x400.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-16T18:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221666,
+      "team1": {
+        "name": "Fluxo",
+        "logo": "https://cdn.pandascore.co/images/team/image/131570/148px_fluxo_text_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "R2 Esports Club",
+        "logo": "https://cdn.pandascore.co/images/team/image/137143/190px_r2_esports_club_lightmode.png",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-16T19:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1220144,
+      "team1": {
+        "name": "Tricked",
+        "logo": "https://cdn.pandascore.co/images/team/image/125071/222px_tricked_esport_2025_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Spirit Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/128766/900px_team_spirit_academy_2021_logo.png",
+        "score": 0
+      },
+      "event": "Exort The Proving Grounds",
+      "date": "2025-08-16T19:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225341,
+      "team1": {
+        "name": "DESEMPREGUEIDOS",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "ShindeN",
+        "logo": "https://cdn.pandascore.co/images/team/image/135468/241px_shinde_n_lightmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T21:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225340,
+      "team1": {
+        "name": "Sharks",
+        "logo": "https://cdn.pandascore.co/images/team/image/3260/406305342_668863775429925_5373187791225655495_n.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Fluxo",
+        "logo": "https://cdn.pandascore.co/images/team/image/131570/148px_fluxo_text_lightmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T21:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225339,
+      "team1": {
+        "name": "2GAME",
+        "logo": "https://cdn.pandascore.co/images/team/image/133770/107px_2_game_esports_2024_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "SELVA",
+        "logo": "",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T21:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225338,
+      "team1": {
+        "name": "Imperial",
+        "logo": "https://cdn.pandascore.co/images/team/image/126377/153px_imperial_esports_2022_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Flamengo Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/132618/189px_flamengo_esports_2022_allmode.png",
+        "score": 0
+      },
+      "event": "ESL Challenger League",
+      "date": "2025-08-16T21:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224948,
+      "team1": {
+        "name": "M80",
+        "logo": "https://cdn.pandascore.co/images/team/image/133435/m80_esports_2024_full_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Verstappen peek",
+        "logo": "",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-16T22:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224947,
+      "team1": {
+        "name": "Marsborne",
+        "logo": "https://cdn.pandascore.co/images/team/image/136318/123px_marsborne_logo_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "BLUEJAYS",
+        "logo": "https://cdn.pandascore.co/images/team/image/127262/600px_bluejays_logo.png",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-16T22:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221667,
+      "team1": {
+        "name": "FURIA fe",
+        "logo": "https://cdn.pandascore.co/images/team/image/129384/600px_furia_esports.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "ShindeN",
+        "logo": "https://cdn.pandascore.co/images/team/image/135468/241px_shinde_n_lightmode.png",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-16T22:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224180,
+      "team1": {
+        "name": "Marsborne",
+        "logo": "https://cdn.pandascore.co/images/team/image/136318/123px_marsborne_logo_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Legacy Kingdom",
+        "logo": "https://cdn.pandascore.co/images/team/image/137263/98px_legacy_kingdom_allmode.png",
+        "score": 0
+      },
+      "event": "Dust2.us",
+      "date": "2025-08-17T00:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224950,
+      "team1": {
+        "name": "NRG",
+        "logo": "https://cdn.pandascore.co/images/team/image/3256/1200px_nrg_2020_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Team Aether",
+        "logo": "https://cdn.pandascore.co/images/team/image/135230/133px_team_aether_allmode.png",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-17T01:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224949,
+      "team1": {
+        "name": "Wildcard",
+        "logo": "https://cdn.pandascore.co/images/team/image/135273/125px_wildcard_2024_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Getting Info",
+        "logo": "",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-17T01:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225298,
+      "team1": {
+        "name": "BIG Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/126694/big.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Brute",
+        "logo": "https://cdn.pandascore.co/images/team/image/126624/600px_team_brute_2020_lightmode.png",
+        "score": 0
+      },
+      "event": "United21",
+      "date": "2025-08-17T08:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224289,
+      "team1": {
+        "name": "GenOne",
+        "logo": "https://cdn.pandascore.co/images/team/image/128519/genone_csgo.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Alliance",
+        "logo": "https://cdn.pandascore.co/images/team/image/133725/285px_alliance_2024_allmode.png",
+        "score": 0
+      },
+      "event": "European Pro League",
+      "date": "2025-08-17T08:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222562,
+      "team1": {
+        "name": "The glecs",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "RUBY",
+        "logo": "https://cdn.pandascore.co/images/team/image/134363/137px_ruby_allmode.png",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-17T08:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223185,
+      "team1": {
+        "name": "Dark Tigers",
+        "logo": "https://cdn.pandascore.co/images/team/image/127744/logo_about.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Sangal ALTERS",
+        "logo": "https://cdn.pandascore.co/images/team/image/136593/sangal.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-17T09:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224290,
+      "team1": {
+        "name": "EYEBALLERS",
+        "logo": "https://cdn.pandascore.co/images/team/image/131189/105px_eyeballers_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "WOPA Esport",
+        "logo": "https://cdn.pandascore.co/images/team/image/134816/190px_wopa_esport_allmode.png",
+        "score": 0
+      },
+      "event": "European Pro League",
+      "date": "2025-08-17T10:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222567,
+      "team1": {
+        "name": "HEROIC Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/136815/680px_heroic_2023_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Imperial Female",
+        "logo": "https://cdn.pandascore.co/images/team/image/135041/198px_imperial_esports_2022_allmode.png",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-17T11:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1220145,
+      "team1": {
+        "name": "Sangal",
+        "logo": "https://cdn.pandascore.co/images/team/image/127365/sangal.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Nexus",
+        "logo": "https://cdn.pandascore.co/images/team/image/126699/7187.png",
+        "score": 0
+      },
+      "event": "Exort The Proving Grounds",
+      "date": "2025-08-17T11:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223186,
+      "team1": {
+        "name": "777",
+        "logo": "https://cdn.pandascore.co/images/team/image/128110/full_vertical_logo.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "HAVU",
+        "logo": "https://cdn.pandascore.co/images/team/image/125774/606px_havu_2025_full_allmode.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-17T12:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225300,
+      "team1": {
+        "name": "G2 Ares",
+        "logo": "https://cdn.pandascore.co/images/team/image/135321/g2_esportslogo_square.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "EYEBALLERS",
+        "logo": "https://cdn.pandascore.co/images/team/image/131189/105px_eyeballers_allmode.png",
+        "score": 0
+      },
+      "event": "United21",
+      "date": "2025-08-17T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223229,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-17T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223228,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-17T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221668,
+      "team1": {
+        "name": "2GAME",
+        "logo": "https://cdn.pandascore.co/images/team/image/133770/107px_2_game_esports_2024_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Dusty Roots",
+        "logo": "https://cdn.pandascore.co/images/team/image/133773/125px_dusty_roots_lightmode.png",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-17T13:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222573,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-17T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221582,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "BLAST Bounty",
+      "date": "2025-08-17T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221301,
+      "team1": {
+        "name": "UNiTY esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/133063/190px_u_ni_ty_esports_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "VP.Prodigy",
+        "logo": "https://cdn.pandascore.co/images/team/image/127899/600px_vp.prodigy_logo.png",
+        "score": 0
+      },
+      "event": "ESEA",
+      "date": "2025-08-17T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1220146,
+      "team1": {
+        "name": "500",
+        "logo": "https://cdn.pandascore.co/images/team/image/132007/800px_500_esports_2024_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "HOTU",
+        "logo": "https://cdn.pandascore.co/images/team/image/130569/148px_hotu_2022_lightmode.png",
+        "score": 0
+      },
+      "event": "Exort The Proving Grounds",
+      "date": "2025-08-17T14:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1216301,
+      "team1": {
+        "name": "Sashi Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/133941/get_team_logos.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "VP Future",
+        "logo": "https://cdn.pandascore.co/images/team/image/137235/223px_vp.future_allmode.png",
+        "score": 0
+      },
+      "event": "Urban Academies",
+      "date": "2025-08-17T15:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223187,
+      "team1": {
+        "name": "BASEMENT BOYS",
+        "logo": "https://cdn.pandascore.co/images/team/image/136516/285px_basement_boys_lightmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "FUT Turkuaz",
+        "logo": "https://cdn.pandascore.co/images/team/image/137202/78px_futbolist_2021_lightmode.png",
+        "score": 0
+      },
+      "event": "Exort Series",
+      "date": "2025-08-17T15:30:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223231,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-17T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1223230,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "StarLadder StarSeries",
+      "date": "2025-08-17T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221669,
+      "team1": {
+        "name": "RED Canids",
+        "logo": "https://cdn.pandascore.co/images/team/image/126227/red-canids-cs-go.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Flamengo Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/132618/189px_flamengo_esports_2022_allmode.png",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-17T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1216302,
+      "team1": {
+        "name": "MOUZ NXT",
+        "logo": "https://cdn.pandascore.co/images/team/image/129160/mou_zlogo_square.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Papara SuperMassive Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/137234/285px_papara_super_massive_2022_lightmode.png",
+        "score": 0
+      },
+      "event": "Urban Academies",
+      "date": "2025-08-17T16:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222578,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-17T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1220147,
+      "team1": {
+        "name": "JiJieHao",
+        "logo": "https://cdn.pandascore.co/images/team/image/126994/ji_jie_hao_international_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Metizport",
+        "logo": "https://cdn.pandascore.co/images/team/image/129440/900px_metizport_2023_allmode.png",
+        "score": 0
+      },
+      "event": "Exort The Proving Grounds",
+      "date": "2025-08-17T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1216303,
+      "team1": {
+        "name": "BIG Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/126694/big.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Northern Lights",
+        "logo": "https://cdn.pandascore.co/images/team/image/135390/northern_lights_logo_400x400.png",
+        "score": 0
+      },
+      "event": "Urban Academies",
+      "date": "2025-08-17T17:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1216304,
+      "team1": {
+        "name": "Aurora Young Blood",
+        "logo": "https://cdn.pandascore.co/images/team/image/133125/140px_aurora_young_blud_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "CPH Wolves Academy",
+        "logo": "https://cdn.pandascore.co/images/team/image/135512/222px_copenhagen_wolves_2012_allmode.png",
+        "score": 0
+      },
+      "event": "Urban Academies",
+      "date": "2025-08-17T18:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224951,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-17T19:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221670,
+      "team1": {
+        "name": "Sharks",
+        "logo": "https://cdn.pandascore.co/images/team/image/3260/406305342_668863775429925_5373187791225655495_n.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Bounty Hunters Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/133326/109px_bounty_hunters_esports_lightmode.png",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-17T19:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224952,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-17T22:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224174,
+      "team1": {
+        "name": "Chicken Coop Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/136064/136px_chicken_coop_esports_2024_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "Team Aether",
+        "logo": "https://cdn.pandascore.co/images/team/image/135230/133px_team_aether_allmode.png",
+        "score": 0
+      },
+      "event": "Dust2.us",
+      "date": "2025-08-17T22:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1221671,
+      "team1": {
+        "name": "ODDIK",
+        "logo": "https://cdn.pandascore.co/images/team/image/131253/900px_oddik_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "KRÜ Esports",
+        "logo": "https://cdn.pandascore.co/images/team/image/134597/140px_kru_esports_allmode.png",
+        "score": 0
+      },
+      "event": "CCT South America",
+      "date": "2025-08-17T22:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224177,
+      "team1": {
+        "name": "Getting Info",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "MIGHT",
+        "logo": "https://cdn.pandascore.co/images/team/image/133749/186px_might_2025_lightmode.png",
+        "score": 0
+      },
+      "event": "Dust2.us",
+      "date": "2025-08-18T00:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224953,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "NA Revival Series",
+      "date": "2025-08-18T01:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1225304,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "United21",
+      "date": "2025-08-18T08:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1224299,
+      "team1": {
+        "name": "Leo Team",
+        "logo": "https://cdn.pandascore.co/images/team/image/133269/152px_l_g_2023_allmode.png",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "European Pro League",
+      "date": "2025-08-18T08:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    },
+    {
+      "id": 1222580,
+      "team1": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "team2": {
+        "name": "TBD",
+        "logo": "",
+        "score": 0
+      },
+      "event": "CCT Europe",
+      "date": "2025-08-18T08:00:00Z",
+      "format": "best_of",
+      "status": "upcoming"
+    }
+  ]
+}

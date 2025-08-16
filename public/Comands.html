@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="realtime-sync.js"></script>
+</head>
+<body>
+    <header>
+    <div class="header-container">
+        <a href="index.html" class="header-title-link">
+        <h1 class="header-title">Zonixx Hub</h1>
+        </a>
+        <nav>
+        <ul>
+            <li><a href="Comands.html">Comands</a></li>
+            <li><a href="Grafic.html">Grafic</a></li>
+            <li><a href="#ticker">Ticker</a></li>
+        </ul>
+        </nav>
+    </div>
+    </header>
+
+  <main class="body-layout">
+    <!-- Dynamic -->
+    <section class="card" id="dynamic-commands">
+    <div class="card-header">
+        <h2>Dynamic</h2>
+    </div>
+    <div class="card-body" id="dynamic-body">
+        <!-- Dynamic commands will be injected here -->
+    </div>
+    </section>
+
+    <!-- Static -->
+    <section class="card" id="static-commands">
+    <div class="card-header with-button">
+        <h2>Static</h2>
+        <div class="button-group">
+          <button id="add-command-btn" class="btn-primary">
+            <i data-lucide="square-plus"></i>
+          </button>
+        </div>
+    </div>
+    <div class="card-body" id="static-body">
+        <!-- Static commands will be injected here -->
+    </div>
+    </section>
+
+        <!-- Eval -->
+    <section class="card">
+      <div class="card-header">
+        <h2>Evaluation</h2>
+      </div>
+      <div class="card-body">
+        <!-- Add your content here -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Add Command Modal -->
+  <div id="add-command-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Add New Command</h3>
+      </div>
+      <form class="modal-form" id="add-command-form">
+        <div class="form-group">
+          <label for="command-name">Command Name</label>
+          <input type="text" id="command-name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="command-trigger">Command Trigger</label>
+          <input type="text" id="command-trigger" name="trigger" placeholder="!example" required>
+        </div>
+        <div class="form-group">
+          <label for="command-output">Command Output:</label>
+          <textarea id="command-output" name="output" rows="3" placeholder="Enter command output text"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="auto-toggle-section">
+            <label class="auto-toggle-label">
+              <input type="checkbox" id="command-auto" name="auto">
+              <span class="checkmark"></span>
+              Enable Auto Mode
+            </label>
+            <div class="interval-section" id="interval-section" style="display: none;">
+              <label for="command-interval">Auto Interval:</label>
+              <div class="interval-slider-container">
+                <input type="range" id="command-interval" name="interval" min="15" max="60" step="15" value="15">
+                <div class="interval-labels">
+                  <span>15min</span>
+                  <span>30min</span>
+                  <span>45min</span>
+                  <span>60min</span>
+                </div>
+                <div class="interval-value">
+                  <span id="command-interval-value">15</span> minutes
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-buttons">
+          <button type="button" class="btn btn-secondary" id="cancel-btn">Cancel</button>
+          <button type="submit" class="btn btn-primary">Save Command</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Auto Interval Modal -->
+  <div id="auto-interval-modal" class="modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Set Auto Interval</h3>
+      </div>
+      <div class="modal-form">
+        <div class="form-group">
+          <label for="interval-slider">Interval (minutes)</label>
+          <div class="slider-container">
+            <input type="range" id="interval-slider" min="15" max="60" step="15" value="15" class="interval-slider">
+            <div class="slider-labels">
+              <span>15</span>
+              <span>30</span>
+              <span>45</span>
+              <span>60</span>
+            </div>
+            <div class="slider-value">
+              <span id="interval-value">15</span> minutes
+            </div>
+          </div>
+        </div>
+        <div class="modal-buttons">
+          <button type="button" id="interval-cancel-btn" class="btn-secondary">Cancel</button>
+          <button type="button" id="interval-save-btn" class="btn-primary">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+<script>
+  lucide.createIcons();
+
+  let commandData = { static: [], dynamic: [] };
+  let currentIntervalCommand = { type: null, index: null };
+
+  function renderCommand(type, { name, trigger, output, auto, interval }, index) {
+    const autoClass = auto ? 'auto-active' : '';
+    const intervalText = auto && interval ? ` (${interval}min)` : '';
+    const autoToggle = type === 'static' ? `
+      <button class="auto-toggle-btn ${autoClass}" data-type="${type}" data-index="${index}" title="Toggle Auto Mode${intervalText}">
+        <i data-lucide="message-square-text"></i>
+      </button>
+    ` : '';
+    
+    return `
+      <div class="command-block" data-type="${type}" data-index="${index}">
+        <div class="command-header">
+          <div class="command-title">${name}${intervalText}</div>
+          ${autoToggle}
+        </div>
+        <div class="command-controls">
+          <input type="text" class="command-input small" value="${trigger}" data-field="trigger" />
+          <input type="text" class="command-input large" value="${output}" data-field="output" />
+        </div>
+      </div>
+    `;
+  }
+
+  function attachChangeListeners() {
+    document.querySelectorAll('.command-input').forEach(input => {
+      input.addEventListener('input', (e) => {
+        const container = input.closest('.command-block');
+        const type = container.dataset.type;
+        const index = parseInt(container.dataset.index);
+        const field = input.dataset.field;
+        const value = input.value;
+
+        // Update the command data
+        commandData[type][index][field] = value;
+
+        // Check if both trigger and output are empty
+        const command = commandData[type][index];
+        if (!command.trigger.trim() && !command.output.trim()) {
+          // Remove the command from the array
+          commandData[type].splice(index, 1);
+          
+          // Re-render the commands to update indices
+          if (type === 'static') {
+            const staticHTML = commandData.static.map((cmd, i) => renderCommand('static', cmd, i)).join('');
+            document.getElementById('static-body').innerHTML = staticHTML;
+          } else {
+            const dynamicHTML = commandData.dynamic.map((cmd, i) => renderCommand('dynamic', cmd, i)).join('');
+            document.getElementById('dynamic-body').innerHTML = dynamicHTML;
+          }
+          
+          // Re-initialize Lucide icons after re-rendering
+          lucide.createIcons();
+          
+          // Re-attach listeners after re-rendering
+          attachChangeListeners();
+          
+          // Save the updated commands
+          saveCommands();
+          return;
+        }
+
+        // Save commands automatically when changed
+        saveCommands();
+      });
+    });
+
+    // Add auto toggle button listeners
+    document.querySelectorAll('.auto-toggle-btn').forEach(button => {
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const type = button.dataset.type;
+        const index = parseInt(button.dataset.index);
+        const command = commandData[type][index];
+        
+        if (command.auto) {
+          // If already auto, turn it off
+          command.auto = false;
+          delete command.interval;
+          button.classList.remove('auto-active');
+          
+          // Re-render to update display
+          const staticHTML = commandData.static.map((cmd, i) => renderCommand('static', cmd, i)).join('');
+          const dynamicHTML = commandData.dynamic.map((cmd, i) => renderCommand('dynamic', cmd, i)).join('');
+          document.getElementById('static-body').innerHTML = staticHTML;
+          document.getElementById('dynamic-body').innerHTML = dynamicHTML;
+          lucide.createIcons();
+          attachChangeListeners();
+          
+          saveCommands();
+        } else {
+          // If not auto, open interval modal
+          openIntervalModal(type, index);
+        }
+      });
+    });
+  }
+
+  // Interval Modal Functions
+  function openIntervalModal(type, index) {
+    currentIntervalCommand = { type, index };
+    const command = commandData[type][index];
+    const modal = document.getElementById('auto-interval-modal');
+    const slider = document.getElementById('interval-slider');
+    const valueDisplay = document.getElementById('interval-value');
+    
+    // Set current interval or default to 15
+    const currentInterval = command.interval || 15;
+    slider.value = currentInterval;
+    valueDisplay.textContent = currentInterval;
+    
+    modal.style.display = 'block';
+  }
+
+  function closeIntervalModal() {
+    const modal = document.getElementById('auto-interval-modal');
+    modal.style.display = 'none';
+    currentIntervalCommand = { type: null, index: null };
+  }
+
+  function saveInterval() {
+    const slider = document.getElementById('interval-slider');
+    const interval = parseInt(slider.value);
+    const { type, index } = currentIntervalCommand;
+    
+    if (type && index !== null) {
+      // Set auto to true and save interval
+      commandData[type][index].auto = true;
+      commandData[type][index].interval = interval;
+      
+      // Re-render to update display
+      const staticHTML = commandData.static.map((cmd, i) => renderCommand('static', cmd, i)).join('');
+      const dynamicHTML = commandData.dynamic.map((cmd, i) => renderCommand('dynamic', cmd, i)).join('');
+      document.getElementById('static-body').innerHTML = staticHTML;
+      document.getElementById('dynamic-body').innerHTML = dynamicHTML;
+      lucide.createIcons();
+      attachChangeListeners();
+      
+      // Save to server
+      saveCommands();
+    }
+    
+    closeIntervalModal();
+  }
+
+  function saveCommands() {
+    // Show saving indicator
+    showSaveStatus('Saving...', 'saving');
+    
+    fetch('/save-commands', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ commands: commandData })
+    })
+    .then(res => res.json())
+    .then(res => {
+      console.log('Saved:', res);
+      showSaveStatus('Saved!', 'success');
+    })
+    .catch(err => {
+      console.error('Save error:', err);
+      showSaveStatus('Save failed!', 'error');
+    });
+  }
+
+  function showSaveStatus(message, type) {
+    // Check if notification is already visible
+    const existingStatus = document.querySelector('.save-status');
+    if (existingStatus) {
+      // If already visible, just update the message and reset the timer
+      existingStatus.textContent = message;
+      existingStatus.className = `save-status ${type}`;
+      
+      // Add green flash effect for success messages
+      if (type === 'success') {
+        existingStatus.style.color = 'var(--Pos-color)';
+        setTimeout(() => {
+          existingStatus.style.color = 'var(--Text-prim)';
+        }, 200);
+      }
+      
+      // Clear existing timeout and set new one
+      if (existingStatus.hideTimeout) {
+        clearTimeout(existingStatus.hideTimeout);
+      }
+      
+      // Only set timeout for non-saving messages
+      if (type !== 'saving') {
+        existingStatus.hideTimeout = setTimeout(() => {
+          hideNotification(existingStatus);
+        }, 3000);
+      }
+      return;
+    }
+
+    // Create new status indicator
+    const statusEl = document.createElement('div');
+    statusEl.className = `save-status ${type}`;
+    statusEl.textContent = message;
+    statusEl.style.cssText = `
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: var(--Prim-color);
+      color: var(--Text-prim);
+      padding: 15px 25px;
+      border-radius: 15px;
+      font-size: 16px;
+      font-weight: bold;
+      font-family: var(--font-primary);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+      z-index: 1000;
+      transform: translateX(100%);
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
+      min-width: 120px;
+      text-align: center;
+    `;
+
+    document.body.appendChild(statusEl);
+
+    // Trigger slide-in animation
+    setTimeout(() => {
+      statusEl.style.transform = 'translateX(0)';
+    }, 10);
+
+    // Auto-remove after 3 seconds (except for saving status)
+    if (type !== 'saving') {
+      statusEl.hideTimeout = setTimeout(() => {
+        hideNotification(statusEl);
+      }, 3000);
+    }
+  }
+
+  function hideNotification(statusEl) {
+    statusEl.style.transform = 'translateX(100%)';
+    setTimeout(() => {
+      if (statusEl.parentNode) {
+        statusEl.remove();
+      }
+    }, 400);
+  }
+
+  // Modal functionality
+  const modal = document.getElementById('add-command-modal');
+  const addBtn = document.getElementById('add-command-btn');
+  const cancelBtn = document.getElementById('cancel-btn');
+  const form = document.getElementById('add-command-form');
+
+  // Open modal
+  addBtn.addEventListener('click', () => {
+    modal.style.display = 'block';
+    document.getElementById('command-name').focus();
+  });
+
+  // Close modal
+  cancelBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+    form.reset();
+  });
+
+  // Close modal when clicking outside
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+      form.reset();
+    }
+  });
+
+  // Handle form submission
+  form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    
+    const formData = new FormData(form);
+    const isAuto = formData.get('auto') === 'on';
+    const newCommand = {
+      name: formData.get('name').trim(),
+      trigger: formData.get('trigger').trim(),
+      output: formData.get('output').trim(),
+      auto: isAuto
+    };
+
+    // Add interval if auto is enabled
+    if (isAuto) {
+      newCommand.interval = parseInt(formData.get('interval'));
+    }
+
+    // Validate inputs
+    if (!newCommand.name || !newCommand.trigger || !newCommand.output) {
+      alert('Please fill in all fields');
+      return;
+    }
+
+    // Add ! prefix if not present
+    if (!newCommand.trigger.startsWith('!')) {
+      newCommand.trigger = '!' + newCommand.trigger;
+    }
+
+    // Add to commandData
+    commandData.static.push(newCommand);
+
+    // Save to server
+    saveCommands();
+
+    // Re-render static commands
+    const staticHTML = commandData.static.map((cmd, i) => renderCommand('static', cmd, i)).join('');
+    document.getElementById('static-body').innerHTML = staticHTML;
+    
+    // Re-initialize Lucide icons after adding new command
+    lucide.createIcons();
+    
+    // Re-attach listeners
+    attachChangeListeners();
+
+    // Close modal and reset form
+    modal.style.display = 'none';
+    form.reset();
+
+    console.log('New command added:', newCommand);
+  });
+
+  // Interval Modal Event Listeners
+  const intervalModal = document.getElementById('auto-interval-modal');
+  const intervalSlider = document.getElementById('interval-slider');
+  const intervalValue = document.getElementById('interval-value');
+  const intervalCancelBtn = document.getElementById('interval-cancel-btn');
+  const intervalSaveBtn = document.getElementById('interval-save-btn');
+
+  // Update slider value display
+  intervalSlider.addEventListener('input', () => {
+    intervalValue.textContent = intervalSlider.value;
+  });
+
+  // Cancel button
+  intervalCancelBtn.addEventListener('click', closeIntervalModal);
+
+  // Save button
+  intervalSaveBtn.addEventListener('click', saveInterval);
+
+  // Close modal when clicking outside
+  window.addEventListener('click', (e) => {
+    if (e.target === intervalModal) {
+      closeIntervalModal();
+    }
+  });
+
+  // Add Command Modal Auto Toggle Event Listeners
+  const commandAutoCheckbox = document.getElementById('command-auto');
+  const commandIntervalSlider = document.getElementById('command-interval');
+  const commandIntervalValue = document.getElementById('command-interval-value');
+  const intervalSection = document.getElementById('interval-section');
+
+  // Show/hide interval section based on auto checkbox
+  commandAutoCheckbox.addEventListener('change', () => {
+    if (commandAutoCheckbox.checked) {
+      intervalSection.style.display = 'block';
+    } else {
+      intervalSection.style.display = 'none';
+    }
+  });
+
+  // Update interval value display in add command modal
+  commandIntervalSlider.addEventListener('input', () => {
+    commandIntervalValue.textContent = commandIntervalSlider.value;
+  });
+
+  fetch('/comands.json')
+    .then(res => res.json())
+    .then(data => {
+      commandData = data.commands;
+
+      const staticHTML = commandData.static.map((cmd, i) => renderCommand('static', cmd, i)).join('');
+      const dynamicHTML = commandData.dynamic.map((cmd, i) => renderCommand('dynamic', cmd, i)).join('');
+
+      document.getElementById('static-body').innerHTML = staticHTML;
+      document.getElementById('dynamic-body').innerHTML = dynamicHTML;
+
+      // Re-initialize Lucide icons after rendering
+      lucide.createIcons();
+      
+      attachChangeListeners();
+    });
+
+  // Real-time sync: Listen for commands updates from other users
+  window.addEventListener('load', () => {
+    if (window.realtimeSync) {
+      window.realtimeSync.on('commands_updated', (updatedCommands) => {
+        console.log('📡 Commands updated by another user, refreshing...');
+        
+        // Update local data
+        commandData = updatedCommands.commands;
+        
+        // Re-render commands
+        const staticHTML = commandData.static.map((cmd, i) => renderCommand('static', cmd, i)).join('');
+        const dynamicHTML = commandData.dynamic.map((cmd, i) => renderCommand('dynamic', cmd, i)).join('');
+
+        document.getElementById('static-body').innerHTML = staticHTML;
+        document.getElementById('dynamic-body').innerHTML = dynamicHTML;
+
+        // Re-initialize icons and listeners
+        lucide.createIcons();
+        attachChangeListeners();
+        
+        // Show notification
+        showSaveStatus('Commands updated by another user', 'success');
+      });
+    }
+  });
+
+  // Initialize Lucide icons
+  lucide.createIcons();
+</script>
+
+</html>

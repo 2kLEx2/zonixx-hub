@@ -1,0 +1,66 @@
+{
+  "commands": {
+    "dynamic": [
+      {
+        "name": "Schedule",
+        "trigger": "!schedule",
+        "output": "Heutiger Fahrplan: 12:00 Astralis - Natus Vincere | 14:30 Virtus Pro - FaZe | 17:00 G2 - Spirit | 19:30 Liquid - Furia"
+      },
+      {
+        "name": "Schedule2",
+        "trigger": "!bo3/!maps",
+        "output": ""
+      }
+    ],
+    "static": [
+      {
+        "name": "Whatsapp",
+        "trigger": "!whatsapp",
+        "output": "Aktuelle News rund um den Stream, Watchpartys und andere Events, bekommt ihr hier in der WhatsApp-Gruppe: https://bit.ly/ZONIXX_WA - komplett anonym. Ich sehe keine Rufnummern, Bilder oder sonstige Informationen von euch. - KOMMT IN DIE GRUPPE!",
+        "auto": true,
+        "interval": 15
+      },
+      {
+        "name": "Corsair",
+        "trigger": "!corsair",
+        "output": "Schaut mal bei meinem Partner Corsair vorbei --> https://www.corsair.com/de/de/",
+        "auto": true,
+        "interval": 15
+      },
+      {
+        "name": "BIG",
+        "trigger": "!wannspieltbig",
+        "output": "https://wannspieltbig.de/",
+        "auto": false
+      },
+      {
+        "name": "rambo Trades",
+        "trigger": "!rambo",
+        "output": "RamboTrades - Deine Anlaufstelle um Skins schnell & sicher für echtes Geld zu verkaufen! Kontaktieren unter: https://rambotrad.es/zonixxX oder https://rambotrad.es/zonixxFB oder skins@rambotrades.com",
+        "auto": true,
+        "interval": 30
+      },
+      {
+        "name": "TikTok",
+        "trigger": "!tiktok",
+        "output": "Lasst mal ein Follow da: https://www.tiktok.com/@zonixxcs",
+        "auto": true,
+        "interval": 30
+      },
+      {
+        "name": "Holy",
+        "trigger": "!holy",
+        "output": "Du suchst nach einer leckeren Alternative zu Energy oder Zero-Getränken? HOLY ist die perfekte Lösung! Geile Produkte und geiler Geschmack für maximal Gesicht! Mit den Codes \"ZONIXX\" für 10% Rabatt oder \"ZONIXX5\" für 5€ Neukundenrabatt spart ihr nochmal ordentlich! Probier’s aus: https://weareholy.com/zonixx",
+        "auto": true,
+        "interval": 30
+      },
+      {
+        "name": "Alternate",
+        "trigger": "!alternate",
+        "output": "Alternate ist dein Shop für alles rund um Hardware, PC und Technik. Über 70,000 Artikel, alle Top-Marken am Start und das Ganze schon seit 1992. Schau jetzt vorbei und gönn dir dein Upgrade: https://www.alternate.de/?partner=zonixx",
+        "auto": true,
+        "interval": 30
+      }
+    ]
+  }
+}
