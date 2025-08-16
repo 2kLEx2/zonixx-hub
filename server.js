@@ -118,6 +118,9 @@ app.post('/api/run-hltv-scraper', async (req, res) => {
 
 // ✅ Refresh upcoming matches
 app.get('/refresh-upcoming', (req, res) => {
+  console.log('🔄 Refresh endpoint called');
+  console.log('🔍 API Key status:', PANDASCORE_API_KEY ? 'SET' : 'NOT SET');
+  
   const now = new Date();
   const in48Hours = new Date(now.getTime() + 48 * 60 * 60 * 1000);
   const apiUrl = new URL('https://api.pandascore.co/csgo/matches/upcoming');
@@ -125,6 +128,7 @@ app.get('/refresh-upcoming', (req, res) => {
   apiUrl.searchParams.append('sort', 'begin_at');
   apiUrl.searchParams.append('per_page', '100');
 
+  console.log('🔍 Calling PandaScore API:', apiUrl.toString());
   const options = { headers: { 'Authorization': `Bearer ${PANDASCORE_API_KEY}` } };
 
   https.get(apiUrl, options, (apiRes) => {
@@ -153,7 +157,8 @@ app.get('/refresh-upcoming', (req, res) => {
           res.status(500).json({ success: false });
         }
       } else {
-        res.status(502).json({ success: false });
+        console.error(`❌ PandaScore API error ${apiRes.statusCode}: ${data}`);
+        res.status(502).json({ success: false, error: `PandaScore API returned ${apiRes.statusCode}` });
       }
     });
   }).on('error', err => {
@@ -164,6 +169,9 @@ app.get('/refresh-upcoming', (req, res) => {
 
 // ✅ Refresh at server start
 function fetchAndSaveUpcomingMatches() {
+  console.log('🔍 API Key status:', PANDASCORE_API_KEY ? 'SET' : 'NOT SET');
+  console.log('🔍 API Key length:', PANDASCORE_API_KEY?.length);
+  
   const now = new Date();
   const in48Hours = new Date(now.getTime() + 48 * 60 * 60 * 1000);
   const apiUrl = new URL('https://api.pandascore.co/csgo/matches/upcoming');
@@ -171,6 +179,7 @@ function fetchAndSaveUpcomingMatches() {
   apiUrl.searchParams.append('sort', 'begin_at');
   apiUrl.searchParams.append('per_page', '100');
 
+  console.log('🔍 Making API call to:', apiUrl.toString());
   const options = { headers: { 'Authorization': `Bearer ${PANDASCORE_API_KEY}` } };
 
   https.get(apiUrl, options, (apiRes) => {
