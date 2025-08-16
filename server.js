@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 const app = express();
-const PORT = 7000;
+const PORT = process.env.PORT || 7000;
 
 // 🔐 PandaScore API Key
 const PANDASCORE_API_KEY = process.env.PANDASCORE_API_KEY || 'wfFUseEzf2SdWTjBIUHMvCYoE1p_1jQ834Cg0GBpIHHGusAIOWY';
